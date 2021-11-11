@@ -36,12 +36,10 @@ document.querySelector("#skip").addEventListener("click", function() {
 	if (video.currentTime >= 52.4){
 		video.currentTime = 0;
 		console.log(video.currentTime)
-		video.play()
 	}
 	else{
 		video.currentTime = video.currentTime + 15; 
 		console.log(video.currentTime)
-		video.play()
 	}
 
 });
