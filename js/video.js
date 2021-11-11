@@ -69,7 +69,7 @@ document.querySelector("#slider").addEventListener("click", function(){
 	console.log("Volume");
 	console.log(document.getElementById("slider").value);
 	video.volume = (document.getElementById("slider").value)/100;
-	document.getElementById("volume").innerHTML = document.getElementById("slider").value
+	document.getElementById("volume").innerHTML = document.getElementById("slider").value + "%";
 
 });
 
